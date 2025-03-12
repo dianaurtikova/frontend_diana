@@ -1,7 +1,10 @@
 .header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 60px;
+    margin-left: 60px;
 }
 .headerButton{
     width: 92px;
@@ -9,26 +12,30 @@
     top: 3px;
     left: 393px;
     
-}
-.headerNavigator{
-    display:inline;
     
 }
-li{
+.headerNavigator{
+    display: inline;
+    
+}
+nav li{
     list-style-type: none;
+    display: inline;
+    margin-right: 30px;
 }
 .navigation{
-    display:inline;
-    width: 501px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 600px;
     height: 34px;
     top: 19px;
     left: 851px;
+    padding: 10 px;
+    color: white;
+    background-color: #ffffff;
 }
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center;
-    margin-left: 60px;
-    margin-left: 60px;
+.but{
+    margin-left: 100px;
+    margin-right: 104px;
 }
