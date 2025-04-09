@@ -10,18 +10,19 @@
     width: 92px;
     height: 28px;
     top: 3px;
-    left: 393px;
-    
-    
+    left: 393px; 
 }
 .headerNavigator{
     display: inline;
-    
 }
 nav li{
     list-style-type: none;
     display: inline;
     margin-right: 30px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 .navigation{
     display:flex;
@@ -38,4 +39,67 @@ nav li{
 .but{
     margin-left: 100px;
     margin-right: 104px;
+}
+.textSection1{
+    margin-left:88px;
+    position:relative;
+    margin-top:-520px;
+}
+.text2Fon1{
+    width: 327px;
+    height: 24px;
+    top: 198.88px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    position:relative;
+    margin-top:-500px;
+}
+.text1Fon1{
+    width: 404px;
+    height: 185px;
+    top: -3.13px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    position:relative;
+    margin-top:-520px;
+    margin-bottom: 17px;
+
+}
+.but{
+top: 3px;
+left: 393px;
+padding: 6px 24px 6px 24px;
+border: 1px ;
+border-radius: 4px;
+border-style: solid;
+border-color: #A7BBC9;
+background-color: white;
+}
+
+.butt{
+text-decoration: none;
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 21.44px;
+letter-spacing: 0%;
+color:#1B365D;
+
+
+}
+.headerButton{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 11px;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+color:#1B365D;
+
 }
