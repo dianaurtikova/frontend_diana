@@ -50,7 +50,7 @@ a{
     height: 24px;
     top: 198.88px;
     font-family: Roboto;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0%;
@@ -62,14 +62,14 @@ a{
     height: 185px;
     top: -3.13px;
     font-family: Roboto;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 56px;
     line-height: 61.6px;
     letter-spacing: 0%;
     position:relative;
     margin-top:-520px;
     margin-bottom: 17px;
-
+    color:#1B365D;
 }
 .but{
 top: 3px;
@@ -85,21 +85,197 @@ background-color: white;
 .butt{
 text-decoration: none;
 font-family: Roboto;
-font-weight: 400;
+font-weight: 400px;
 font-size: 16px;
 line-height: 21.44px;
 letter-spacing: 0%;
 color:#1B365D;
-
-
 }
 .headerButton{
-    font-family: Roboto;
-font-weight: 700;
+font-family: Roboto;
+font-weight: 700px;
 font-size: 11px;
 line-height: 17px;
 letter-spacing: 0%;
 text-align: center;
 color:#1B365D;
+}
+.textSection1_1{
+    margin-right:930px;
+    position:relative;
+    margin-top:130px;
+    color: #1B365D; 
+}
+.textSection1_2{
+top:7px;
+position:absolute;
+margin-left:188px;
+}
+.fon1_3{
+left: 50px;
+position:absolute;
+margin-top:16px;
+margin-left:39px;
+}
+.text1Fon1_2{
+font-family: Roboto;
+font-weight: 700px;
+font-size: 15px;
+line-height: 21px;
+color: #1B365D;
 
 }
+.text2Fon1_2 {
+font-family: Roboto;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #1B365D;
+margin-top: -10px;
+}
+.button1Fon1 {
+width: 186px;
+height: 46px;
+border-radius: 24px;
+border-width: 1px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+margin-top: 40px;
+}
+.textButton1{
+width: 114px;
+height: 20px;
+top: 13px;
+left: 36px;
+font-family: Roboto;
+font-weight: 700px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color:#1B365D;
+}
+.textButton2{
+width: 143px;
+height: 22.34375px;
+top: 275px;
+left: 304px;
+font-family: Roboto;
+font-weight: 700px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+margin-left:17px;
+color:#1B365D;
+}
+.section2 {
+    padding: 70px 88px;
+}
+
+/* Контейнер для карточек */
+.card-container1 {
+display: flex;
+width: 1264px;
+height: 606px;
+top: 865px;
+align-items: center;
+}
+
+/* Стили отдельной карточки */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Стили изображения в карточке */
+.card1 {
+    max-width: 304px;
+    height: 587px;
+    object-fit: contain;
+}
+
+/* Стили заголовка карточки */
+.card h3 {
+width: 125px;
+height: 30px;
+font-family: Roboto;
+font-weight: 700px;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.cardText{
+position: absolute;
+margin-top: 400px;
+margin-left: 100px;
+color:#FFFFFF;
+font-family: Roboto;
+
+text-align: center;
+}
+.cardText1{
+width: 203px;
+height: 42px;
+top: 31.05px;
+left: 50px;
+}
+.textSection2{
+width: 682px;
+height: 110px;
+top: -3.06px;
+left: 88px;
+font-family: Roboto;
+font-weight: 700;
+font-size: 50px;
+line-height: 55px;
+letter-spacing: 0%;
+color:#1B365D;
+}
+
+/* Позиционирование фоновых изображений */
+.fon2 {
+    display: block;
+    
+}
+
+.blueFon {
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: auto;
+}
+
+/* Стили для колонок */
+.stolbcu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    position: relative;
+    width: 1180.8125px;
+    height: 159px;
+    margin-top: -332px;
+    margin-left: 100px;
+}
+
+/* Стили ссылок */
+.stolbcu a {
+    display: inline-block;
+    color: #0066cc;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 0;
+    border-bottom: 2px solid #0066cc;
+    
+}
+
+
+
