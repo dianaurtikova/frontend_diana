@@ -169,9 +169,7 @@ letter-spacing: 0%;
 margin-left:17px;
 color:#1B365D;
 }
-.section2 {
-    padding: 70px 88px;
-}
+
 
 /* Контейнер для карточек */
 .card-container1 {
@@ -180,6 +178,9 @@ width: 1264px;
 height: 606px;
 top: 865px;
 align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 88px;
 }
 
 /* Стили отдельной карточки */
@@ -237,17 +238,20 @@ font-size: 50px;
 line-height: 55px;
 letter-spacing: 0%;
 color:#1B365D;
+display: block;
+    margin-left:88px;
+
+}
+.fon2{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 /* Позиционирование фоновых изображений */
-
 .blueFon {
-    top: 0px;
-    left: 0px;
-    height: auto;
-    width: auto;
+    
 }
-
 /* Стили для колонок */
 .stolbcu {
     display: grid;
