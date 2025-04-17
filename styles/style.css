@@ -239,29 +239,70 @@ line-height: 55px;
 letter-spacing: 0%;
 color:#1B365D;
 display: block;
-    margin-left:88px;
-
+margin-left:88px;
+}
+.section2{
+height: 1693px;
 }
 .fon2{
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left:88px;
+    position: absolute;
 }
-
+.blueFon2{
+position: relative;
+}
 /* Позиционирование фоновых изображений */
 .blueFon {
-    
+width: 1440px;
+height: 497px;
+margin-top: 361px;
 }
 /* Стили для колонок */
 .stolbcu {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    position: relative;
+    position: relative; */
+    display: flex;
+    justify-content: ;
     width: 1180.8125px;
     height: 159px;
-    margin-top: -332px;
-    margin-left: 100px;
+    margin-top: -222px;
+    margin-left: 173px;
+}
+.stolbec2{
+    margin-left: 195px;
+}
+.stolbec1_1{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.stolbec2_1{
+font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.stolbec1_2{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    
+}
+.stolbec2_2{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    
 }
 
 /* Стили ссылок */
