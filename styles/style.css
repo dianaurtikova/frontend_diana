@@ -171,7 +171,7 @@ color:#1B365D;
 }
 
 
-/* Контейнер для карточек */
+
 .card-container1 {
 display: flex;
 width: 1264px;
@@ -183,7 +183,7 @@ margin-right: auto;
 margin-top: 88px;
 }
 
-/* Стили отдельной карточки */
+
 .card {
     background-color: #fff;
     border-radius: 8px;
@@ -195,14 +195,13 @@ margin-top: 88px;
     padding: 16px;
 }
 
-/* Стили изображения в карточке */
+
 .card1 {
     max-width: 304px;
     height: 587px;
     object-fit: contain;
 }
 
-/* Стили заголовка карточки */
 .card h3 {
 width: 125px;
 height: 30px;
@@ -251,13 +250,13 @@ height: 1693px;
 .blueFon2{
 position: relative;
 }
-/* Позиционирование фоновых изображений */
+
 .blueFon {
 width: 1440px;
 height: 497px;
 margin-top: 361px;
 }
-/* Стили для колонок */
+
 .stolbcu {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -304,7 +303,6 @@ letter-spacing: 0%;
     
 }
 
-/* Стили ссылок */
 .stolbcu a {
     display: inline-block;
     color: #1B365D;
@@ -464,9 +462,7 @@ letter-spacing: 0%;
 text-align: center;
 color: #AEABA8;
 }
-.section6{
-    /* height: 1549px; */
-}
+
 .section6Foto{
 display: flex;
 margin-left: 88px;
@@ -479,9 +475,6 @@ height: 622px;
     height: 311px;
     width: 1440px;
     margin-top: 412px;
-}
-.section6Foto1{
- 
 }
 .section6Text1{
     position: absolute;
@@ -551,22 +544,33 @@ margin-top: -20px;
 /* .Sec7fon{
     margin-top: -5px;
 } */
-.section7{
+/* .section7{
     background-image:url(/img/S7fon.png);
-}
+    background-position: 0px 0px;
+    width: ;
+} */
 /* .section7Text2{
     position: relative;
     margin-top: 88px;
 } */
+ .Sec7fon1{
+    position: relative;
+ }
+ .Sec7fon2{
+    position: absolute;
+    width: 100%;
+ }
+ .Sec7fon{
+    margin-top:-5px;
+    margin-bottom: -6px;
+ }
 .card-container2{
     display: flex;
+    justify-content: space-between;
     width: 1264px;
     height: 606px;
-    top: 865px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin-left: 88px;
 }
 .section7Text1_1{
     font-family: Roboto;
@@ -577,11 +581,12 @@ margin-top: -20px;
     color: #1B365D;
     margin-left: 88px;
     margin-bottom: 27px;
+    
 }
 .section7Text2{
-    position: absolute;
-    margin-left: 188px;
-    font-family: Roboto;
+position: absolute;
+margin-left: 188px;
+font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
@@ -595,5 +600,15 @@ margin-top:-67px;
 .section7Text2_1{
     margin-bottom: -14px;
 }
-
-
+.footerFon{
+    position: relative;
+}
+.footerFon1{
+    position: absolute;
+}
+.card2 {
+    background-color: #FFFFFF;
+    width: 304px;
+    height: 513px;
+    object-fit: contain;
+}
