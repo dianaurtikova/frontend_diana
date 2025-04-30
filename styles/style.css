@@ -581,7 +581,6 @@ margin-top: -20px;
     color: #1B365D;
     margin-left: 88px;
     margin-bottom: 27px;
-    
 }
 .section7Text2{
 position: absolute;
@@ -611,4 +610,53 @@ margin-top:-67px;
     width: 304px;
     height: 513px;
     object-fit: contain;
+}
+.card2_1{
+    width: 193;
+height: 220;
+margin-top: 82px;
+margin-left: 56px;
+}
+.card2Text{
+    /* margin-top: 327px;
+    margin-left: 84px; */
+    color: #434140;
+    ;
+    font-family: Roboto;
+    text-align: center;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+    }
+.BuyNow{
+width: 108px;
+height: 46px;
+border-radius: 24px;
+border-width: 1px;
+background: #1877F2;
+border-color: #1877F2;
+color: #FFFFFF;
+}
+.card2Text a{
+ color: #1B365D;
+}
+.CPbut{
+width: 193px;
+height: 46px;
+border-radius: 24px;
+border-width: 1px;
+border: 1px solid #FFFFFF;
+margin-top: -7px;
+margin-left: 610px;
+background: #FFFFFF;
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: #1B365D;
 }
