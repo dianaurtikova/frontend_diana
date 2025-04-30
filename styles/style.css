@@ -81,7 +81,6 @@ border-style: solid;
 border-color: #A7BBC9;
 background-color: white;
 }
-
 .butt{
 text-decoration: none;
 font-family: Roboto;
@@ -123,7 +122,6 @@ font-weight: 700px;
 font-size: 15px;
 line-height: 21px;
 color: #1B365D;
-
 }
 .text2Fon1_2 {
 font-family: Roboto;
@@ -169,9 +167,6 @@ letter-spacing: 0%;
 margin-left:17px;
 color:#1B365D;
 }
-
-
-
 .card-container1 {
 display: flex;
 width: 1264px;
@@ -182,8 +177,6 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 88px;
 }
-
-
 .card {
     background-color: #fff;
     border-radius: 8px;
@@ -194,14 +187,11 @@ margin-top: 88px;
     text-align: center;
     padding: 16px;
 }
-
-
 .card1 {
     max-width: 304px;
     height: 587px;
     object-fit: contain;
 }
-
 .card h3 {
 width: 125px;
 height: 30px;
@@ -212,7 +202,6 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 margin-left: 10%;
-
 }
 .cardText{
 position: absolute;
@@ -222,7 +211,6 @@ color:#FFFFFF;
 font-family: Roboto;
 text-align: center;
 }
-
 .cardText p{
     margin-right: 30%;
 }
@@ -250,13 +238,11 @@ height: 1693px;
 .blueFon2{
 position: relative;
 }
-
 .blueFon {
 width: 1440px;
 height: 497px;
 margin-top: 361px;
 }
-
 .stolbcu {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -276,7 +262,6 @@ font-weight: 700;
 font-size: 24px;
 line-height: 30px;
 letter-spacing: 0%;
-
 }
 .stolbec2_1{
 font-family: Roboto;
@@ -284,7 +269,6 @@ font-weight: 700;
 font-size: 24px;
 line-height: 30px;
 letter-spacing: 0%;
-
 }
 .stolbec1_2{
     font-family: Roboto;
@@ -292,7 +276,6 @@ letter-spacing: 0%;
     font-size: 17px;
     line-height: 23px;
     letter-spacing: 0%;
-    
 }
 .stolbec2_2{
     font-family: Roboto;
@@ -300,9 +283,7 @@ letter-spacing: 0%;
     font-size: 17px;
     line-height: 23px;
     letter-spacing: 0%;
-    
 }
-
 .stolbcu a {
     display: inline-block;
     color: #1B365D;
@@ -319,7 +300,6 @@ width: 1264px;
 height: 710px;
 top: 2499px;
 left: 88px;
-
 }
 .phoneFon1{
 width: 1264px;
@@ -375,9 +355,7 @@ line-height: 55px;
 .slayder1{
 width: 592px;
 height: 216px;
-
 }
-
 .slayder1_2{
     margin-left:24px;
 }
@@ -425,7 +403,6 @@ margin-left: 88px;
 .section5Text{
     width: 421.328125px;
 height: 332px;
-
 }
 .section5Text1_1{
     font-family: Roboto;
@@ -599,22 +576,26 @@ margin-top:-67px;
 .section7Text2_1{
     margin-bottom: -14px;
 }
-.footerFon{
+footer{
     position: relative;
+    background-color: #272E38;
+    width: 100%;
+    height: 100%;
 }
-.footerFon1{
+/* .footerFon1{
     position: absolute;
-}
+    background-color: #272E38;
+    width: 100%;
+} */
 .card2 {
     background-color: #FFFFFF;
     width: 304px;
     height: 513px;
-    object-fit: contain;
 }
 .card2_1{
     width: 193;
 height: 220;
-margin-top: 82px;
+margin-top: 20px;
 margin-left: 56px;
 }
 .card2Text{
@@ -659,4 +640,31 @@ line-height: 20px;
 letter-spacing: 0%;
 text-align: center;
 color: #1B365D;
+}
+.cardPortal{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 18px 0 18px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B365D;
+}
+.footerText{
+    margin-left: 332px;
+    margin-top: -10px;
+}
+.footerspiski{
+    display: flex;
+    justify-content: space-around;
+}
+.footerspiski ul{
+    list-style-type: none;
+}
+.portalLogo{
+    margin-left: 88px;
+    margin-top: 64px;
+    
 }
