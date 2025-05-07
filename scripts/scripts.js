@@ -45,3 +45,17 @@ function showAllCard(cards){
     }
 }
 showAllCard(cards);
+
+//2.1 слайдер
+const swiper1 = new Swiper('.swiper.swiper', {
+    loop: true,
+    slidesPerView: 4,   
+    slidesPerGroup: 1,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+
+  
