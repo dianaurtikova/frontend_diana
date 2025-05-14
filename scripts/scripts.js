@@ -57,5 +57,13 @@ const swiper1 = new Swiper('.swiper.swiper', {
     },
 });
 
-
+//2.2 форма
+function closeBackdrop(el, ev) {
+  if (el == ev.target) el.classList.add("off1")
+  document.documentElement.style.overflow = "auto"
+}
+function openBackdrop() {
+  document.getElementsByClassName("backdrop")[0].classList.remove("off1");
+  document.documentElement.style.overflow = "hidden"
+}
   
