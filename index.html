@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+     <div class="preloader">
+        <div class="loader"></div>
+    </div>
     <header class="header">
         <div class=logotip>
             <img src="img/Frame.png" alt="логотип" class="logo">
@@ -320,5 +323,32 @@
 </footer>
 <script src="scripts/swiper-bundle.min.js"> </script>
 <script src="scripts/scripts.js"></script>
+  <script>
+        // Скрипт для прелоадера
+        document.addEventListener('DOMContentLoaded', function() {
+            const preloader = document.querySelector('.preloader');
+            
+            // Скрываем прелоадер после загрузки страницы
+            window.addEventListener('load', function() {
+                // Добавляем задержку для демонстрации (можно убрать)
+                setTimeout(function() {
+                    preloader.classList.add('hidden');
+                    
+                    // Удаляем прелоадер из DOM после анимации
+                    setTimeout(function() {
+                        preloader.remove();
+                    }, 500); // Время должно совпадать с transition в CSS
+                }, 1000); // Задержка в 1 секунду для демонстрации
+            });
+            
+            // Альтернатива: скрыть прелоадер, если страница загружается слишком долго
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+                setTimeout(function() {
+                    preloader.remove();
+                }, 500);
+            }, 5000); // Максимальное время ожидания - 5 секунд
+        });
+    </script>
 </body>
 </html>
