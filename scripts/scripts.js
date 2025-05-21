@@ -24,26 +24,26 @@
 //         card_link: "Learn More",
 //     },
 // }
-function showCard(card) {
-    let infCards = document.getElementById("information-cards");
-    let newCard = `
-    <div class="card">
-                 <img src=${card.card_foto} class="card1">
-                 <div class="cardText">
-                    <h3><b>${card.card_name}</b></h3>
-                    <p>${card.card_description}</p>
-                    <p>${card.card_link}</p>
-                 </div>
-    </div>
-    `;
-    infCards.innerHTML+= newCard;
-}
-function showAllCard(cards){
-    const cardArray=Object.values(cards);
-    for (let i=0;i<cardArray.length;i++){
-        showCard(cardArray[i]);
-    }
-}
+// function showCard(card) {
+//     let infCards = document.getElementById("information-cards");
+//     let newCard = `
+//     <div class="card">
+//                  <img src=${card.card_foto} class="card1">
+//                  <div class="cardText">
+//                     <h3><b>${card.card_name}</b></h3>
+//                     <p>${card.card_description}</p>
+//                     <p>${card.card_link}</p>
+//                  </div>
+//     </div>
+//     `;
+//     infCards.innerHTML+= newCard;
+// }
+// function showAllCard(cards){
+//     const cardArray=Object.values(cards);
+//     for (let i=0;i<cardArray.length;i++){
+//         showCard(cardArray[i]);
+//     }
+// }
 // showAllCard(cards);
 
 //2.1 слайдер
@@ -67,14 +67,14 @@ function openBackdrop() {
   document.documentElement.style.overflow = "hidden"
 }
 //3 задание
-fetch('https://jsonplaceholder.typicode.com/comments?_limit=4')
-  .then(response => response.json())
-  .then(json => {
-    const cards = json.map((comment, index) => ({
-      card_foto: "img/card1.1.png", 
-      card_name: `Comment ${index + 1}`,
-      card_description: comment.body,
-      card_link: 'Learn More',
-    }));
-    showAllCard(cards);
-  });
+// fetch('https://jsonplaceholder.typicode.com/comments?_limit=4')
+//   .then(response => response.json())
+//   .then(json => {
+//     const cards = json.map((comment, index) => ({
+//       card_foto: "img/card1.1.png", 
+//       card_name: `Comment ${index + 1}`,
+//       card_description: comment.body,
+//       card_link: 'Learn More',
+//     }));
+//     showAllCard(cards);
+//   });
